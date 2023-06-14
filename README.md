@@ -5,8 +5,8 @@ A website that displays random gifs as well as gifs of specificed topic
 
 ## Feathers
 
-- First section gives a random gif
-- In second section you can enter your topic name the gif you want to see
+- The first section gives a random gif
+- In the second section you can enter the topic name of the gif
 
 
 ## Demo
@@ -16,13 +16,13 @@ https://github.com/tanmayR18/gifs-generator/assets/135257857/c368087f-facc-4321-
 
 ## Tech Stack
 
-**Client:** Html, Tailwind CSS, Javascript and React.js
+**Client:** Html, Tailwind CSS, Javascript, and React.js
 
 **Server:** None
 
 ## Usage
 
-Click on the link given below or follow the instrucations given below to run the project locally.
+Click on the link given below or follow the instructions given below to run the project locally.
 
 
 
