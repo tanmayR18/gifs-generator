@@ -3,7 +3,7 @@
 A website that displays random gifs as well as gifs of specificed topic
 
 
-## Feathers
+## Features
 
 - The first section gives a random gif
 - In the second section you can enter the topic name of the gif
