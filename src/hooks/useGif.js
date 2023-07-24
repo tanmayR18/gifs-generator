@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import axios from 'axios'
 
 const API_KEY = process.env.REACT_APP_GIPHY_API_KEY
@@ -14,6 +14,7 @@ const useGif = (tag) => {
         try{
           setLoading(true)
           const {data} = await axios.get(tag ? `${url}&tag=${tag}` : url)
+          console.log(data)
           const imgSrc = data.data.images.downsized_large.url
           setGifs(imgSrc)
           
@@ -31,4 +32,4 @@ const useGif = (tag) => {
       return {gif,loading,generateGif}
 }
 
-export default useGif;
+export default useGif; 
